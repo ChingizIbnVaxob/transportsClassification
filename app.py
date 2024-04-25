@@ -2,6 +2,7 @@ import streamlit as st
 from fastai.vision.all import *
 import plotly.express as px
 import pathlib
+import platform
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
