@@ -34,5 +34,3 @@ if file is not None:
     #display figure
     fig = px.bar(x=probs*100, y=model.dls.vocab)
     st.plotly_chart(fig)
-
-    C:\Users\INHA\Desktop\PYTHON_SCRIPTS\transports\app.py
